@@ -8,7 +8,7 @@ async function bootstrap() {
 
   // Enable CORS for frontend communication
   app.enableCors({
-    origin: 'http://localhost:8080', // Or your frontend's URL
+    origin: 'https://l2-assessment-1.onrender.com', // Or your frontend's URL
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     credentials: true,
   });
