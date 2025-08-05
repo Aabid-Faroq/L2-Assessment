@@ -39,8 +39,10 @@ lerna-debug.log*
 
 # NestJS
 ########
-/dist
-/node_modules
+frontend/dist
+frontend/node_modules
+backend/dist
+backend/node_modules
 *.tsbuildinfo
 
 # Vite / React
